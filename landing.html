@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            line-height: 1.4;
+            font-weight: 250;
+            
+        }
+        .hero_section{
+            background-image: url(web_developer.png);
+            min-height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .text_container{
+            color: white;
+            max-width: 850px;
+            margin: 0 auto;
+            padding-top: 64px;
+            padding-left: 16px;
+        }
+        .lg_text{
+            font-size: 60px;
+            font-weight: 400;
+        }
+        .black_box{
+            background-color: black;
+            padding: 20px;
+        }
+        .black_box h2{
+           font-size: 62px;
+           color: white;
+           text-align: center;
+           font-weight: 250px;
+        }
+        .black_box h2 span{
+            font-weight: 350px;
+            font-size: 96px;
+        }
+        .work{
+            display: grid;
+           grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+           gap: 20px;
+        max-width: 1100px;
+        margin: 50px auto;
+        }
+        
+        .card{
+            max-width: 320px;
+            margin-left: 10px;
+            height: 620px;
+            border-radius: 10px;
+            box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+           
+        }
+        .card:hover{
+            cursor: pointer;
+           transform: translateY(-100px);
+           background-color: plum;
+        }
+       .card_content{
+        padding: 20px;
+       }
+       .card_content h3{
+        margin-bottom: 5px;
+       }
+       .bottom_section{
+        display: flex;
+       }
+       .contact{
+        background-color: green;
+       }
+       .about{
+        background-color: brown;
+       }
+       .contact,.about{
+        min-height: 300px;
+        padding: 32px;
+        color: white;
+       }
+       .contact p,.about p{
+       margin-bottom: 20px;
+       }
+       .contact h2,.about h2{
+       font-size: 64px;
+       font-weight: 300;
+       }
+       footer{
+        text-align: center;
+        text-transform: uppercase;
+        background-color: black;
+        padding: 20px;
+        color: white;
+       }
+     
+    </style>
+</head>
+<body>
+    <section class="hero_section">
+        <div class="text_container">
+            <h2><span class="lg_text">Hi,</span>I am Gulshath M</h2>
+            <h1 style="font-size: xx-large;"><strong>PYTHON DJANGO DEVELOPER</strong> </h1>
+        </div>
+    </section>
+    <section class="black_box">
+        <h2>WORK, I CAN DO FOR<span>YOU</span></h2>
+    </section>
+    <section class="work">
+        
+        <div class="card">
+            <div class="image_container">
+               
+                    <img src="developer.png" alt="web development" height="250px" width="320px">
+                </div>
+                <div class="card_content">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p><br>
+                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, .</p>
+                </div>
+            </div>
+            </div>
+           
+            <div class="card">
+                <div class="image_container">
+                    
+                        <img src="app_developer.png" alt="app development" height="250px" width="320px">
+                    </div>
+                    <div class="card_content">
+                        <h3>APP DEVELOPMENT</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took .</p><br>
+                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remand maining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,.</p>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="card">
+            <div class="image_container">
+               
+                    <img src="ui_ux.png" alt="ui ux design" height="250px" width="320px">
+                </div>
+                <div class="card_content">
+                    <h3>UI UX DESIGN</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p><br>a
+                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, .</p>
+    </div>
+</div>
+    </section>
+    <section class="bottom_section">
+        <div class="contact"> 
+            <h2>Contact Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa eveniet placeat repellendus fuga perferendis.</p>
+            <p>Dosomecoading@example.test</p>
+         </div>
+            <div class="about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa eveniet placeat repellendus fuga perferendis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa eveniet placeat repellendus fuga perferendis.</p>
+        </div>
+    </section>
+    <footer>project by do some coding</footer>
+</body>
+</html>
